@@ -27,7 +27,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 PRODUCT_DEVICE := ugg
 PRODUCT_NAME := lineage_ugg
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note 5A Prime
+PRODUCT_MODEL := Redmi Y1
 PRODUCT_MANUFACTURER := Xiaomi
 BOARD_VENDOR := Xiaomi
 

@@ -2037,7 +2037,6 @@ vendor/lib/libchromatix_s5k3m2xx_video_4k.so
 vendor/lib/libchromatix_s5k3m2xx_zsl_preview_ad5816g.so
 vendor/lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so
 
-
 # Camera configs
 etc/camera/camera_config.xml
 etc/camera/csidtg_camera.xml
@@ -2732,12 +2731,12 @@ vendor/lib/libTimeService.so
 -vendor/lib64/libtime_genoff.so
 vendor/lib64/libTimeService.so
 
-# vendor apps
+# Color Service
 -vendor/app/CABLService/CABLService.apk
 -vendor/app/colorservice/colorservice.apk
 -vendor/app/SVIService/SVIService.apk
 
-#WFD
+# WFD
 bin/wfdservice
 vendor/lib/libwfdavenhancements.so
 vendor/lib/libwfdcommonutils.so
@@ -2773,7 +2772,7 @@ vendor/lib64/libwfduibcsrcinterface.so
 # USB
 etc/firmware/ice40.bin
 
-# Widevine - from onePlus3
+# Widevine
 vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so
 vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so
@@ -2862,4 +2861,3 @@ vendor/lib64/libpvr.so
 vendor/lib64/librmp.so
 vendor/lib64/libSampleAuthJNI.so
 vendor/lib64/libSampleExtAuthJNI.so
-
