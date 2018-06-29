@@ -2644,7 +2644,6 @@ vendor/lib64/libimscamera_jni.so
 vendor/lib64/libimsmedia_jni.so
 vendor/lib64/librcc.so
 vendor/lib64/libvoice-svc.so
-#system/bin/vm_bms
 vendor/qcril.db
 
 # FM Radio
@@ -2666,7 +2665,7 @@ vendor/lib64/sensors.ssc.so
 # Subsystem restart
 bin/ssr_diag
 
-#SCVE
+# SCVE
 vendor/lib/libscveBlobDescriptor.so
 vendor/lib/libscveBlobDescriptor_stub.so
 vendor/lib/libscveCleverCapture.so
@@ -2772,7 +2771,7 @@ vendor/lib64/libwfduibcsrcinterface.so
 # USB
 etc/firmware/ice40.bin
 
-# Widevine
+# Widevine - from onePlus3
 vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib/qcdrm/playready/lib/drm/libdrmprplugin_customer.so
 vendor/lib/qcdrm/playready/lib/libprdrmdecrypt_customer.so
@@ -2791,22 +2790,14 @@ bin/cnss_diag
 bin/wcnss_service
 bin/fstman
 
-# Fingerprint
-lib64/hw/fingerprint.fpc.so:lib64/hw/fingerprint.fpc.sdm660.so
-lib64/hw/fingerprint.goodix.so:lib64/hw/fingerprint.goodix.sdm660.so
-lib64/libgoodixfingerprintd_binder.so
-lib64/libgf_ca.so
-lib64/libgf_hal.so
-vendor/lib64/libqti_performance.so
-
 # Fingerprint sensor
-lib64/hw/fingerprint.fpc.so:lib64/hw/fingerprint.fpc.sdm660.so
-lib64/hw/fingerprint.goodix.so:lib64/hw/fingerprint.goodix.sdm660.so
-lib/lib_fpc_tac_shared.so
+lib64/hw/fingerprint.goodix.default.so
+lib64/hw/fingerprint.msm8937.so
 lib64/lib_fpc_tac_shared.so
-lib64/libgoodixfingerprintd_binder.so
+lib64/libgf_algo.so
 lib64/libgf_ca.so
 lib64/libgf_hal.so
+lib/lib_fpc_tac_shared.so
 
 # Fingerprint Firmware
 etc/firmware/fpctzappfingerprint.b00

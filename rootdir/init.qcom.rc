@@ -189,19 +189,13 @@ on boot
     start gx_fpd
 
     #bug 274787 - 【JIRA】【HONGMI-31927】 [D1-P2][fingerprint] set finger pay prop huangfusheng.wt 20170816 start
-    on property:persist.sys.fp.vendor=switchf
+    on property:persist.sys.fp.vendor=fpc
       setprop ro.boot.fpsensor fpc
     on property:persist.sys.fp.vendor=goodix
-	  setprop ro.boot.fpsensor gdx
+	setprop ro.boot.fpsensor goodix
     setprop goodix.fp.miui.analyse 1
     #bug 274787 - 【JIRA】【HONGMI-31927】 [D1-P2][fingerprint] set finger pay prop huangfusheng.wt 20170816 end
 
-	# DT2W
- 	chown system system /sys/devices/soc/78b7000.i2c/i2c-3/3-0038//input/input2/device/fts_gesture_mode
- 	chmod 660 /sys/devices/soc/78b7000.i2c/i2c-3/3-0038//input/input2/device/fts_gesture_mode
-	chown system system /sys/goodix_gesture/gesture_enable
-	chmod 660 /sys/goodix_gesture/gesture_enable
-	
     chown system system /sys/devices/soc/soc:fpc1020/compatible_all
     chmod 0664 /sys/devices/soc/soc:fpc1020/compatible_all
     chown system system /sys/devices/soc/soc:fpc1020/irq
@@ -896,9 +890,6 @@ service iprenew_wigig0 /system/bin/dhcpcd -n
 #    socket wififtmd_server dgram 0660 system system
 #    disabled
 #    oneshot
-
-on property:wifi.ftmd.load=true
-    insmod /system/lib/modules/pronto/pronto_wlan.ko con_mode=5
 
 service cnss_diag /system/bin/cnss_diag -q -f
     class main
