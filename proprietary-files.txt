@@ -2435,6 +2435,28 @@ vendor/lib64/libMpeg4SwEncoder.so
 vendor/media/LMspeed_508.emd
 vendor/media/PFFprec_600.emd
 
+# MM Modules
+vendor/lib/libmmhttpstack.so
+vendor/lib/libmmparser.so
+vendor/lib/libmmparser_lite.so
+vendor/lib/libmmrtpdecoder.so
+vendor/lib/libmmrtpencoder.so
+vendor/lib/libmmwfdinterface.so
+vendor/lib/libmmwfdsinkinterface.so
+vendor/lib/libmmwfdsrcinterface.so
+vendor/lib64/libmmhttpstack.so
+vendor/lib64/libmmparser.so
+vendor/lib64/libmmparser_lite.so
+vendor/lib64/libmmrtpdecoder.so
+vendor/lib64/libmmrtpencoder.so
+vendor/lib64/libmmwfdinterface.so
+vendor/lib64/libmmwfdsinkinterface.so
+vendor/lib64/libmmwfdsrcinterface.so
+vendor/lib64/libpvr.so
+vendor/lib64/librmp.so
+vendor/lib64/libSampleAuthJNI.so
+vendor/lib64/libSampleExtAuthJNI.so
+
 # MMI
 vendor/lib/libmmi.so
 vendor/lib/libmmiipstreammmihttp.so
@@ -2488,6 +2510,33 @@ vendor/lib64/mmi_sysinfo.so
 vendor/lib64/mmi_touch.so
 vendor/lib64/mmi_vibrator.so
 vendor/lib64/mmi_wifi.so
+
+# Fingerprint sensor
+lib64/hw/fingerprint.goodix.default.so
+lib64/hw/fingerprint.msm8937.so
+lib64/lib_fpc_tac_shared.so
+lib64/libgf_algo.so
+lib64/libgf_ca.so
+lib64/libgf_hal.so
+lib/lib_fpc_tac_shared.so
+
+# Fingerprint Firmware
+etc/firmware/fpctzappfingerprint.b00
+etc/firmware/fpctzappfingerprint.b01
+etc/firmware/fpctzappfingerprint.b02
+etc/firmware/fpctzappfingerprint.b03
+etc/firmware/fpctzappfingerprint.b04
+etc/firmware/fpctzappfingerprint.b05
+etc/firmware/fpctzappfingerprint.b06
+etc/firmware/fpctzappfingerprint.mdt
+etc/firmware/goodixfp.b00
+etc/firmware/goodixfp.b01
+etc/firmware/goodixfp.b02
+etc/firmware/goodixfp.b03
+etc/firmware/goodixfp.b04
+etc/firmware/goodixfp.b05
+etc/firmware/goodixfp.b06
+etc/firmware/goodixfp.mdt
 
 # Modem
 vendor/lib/libwms.so
@@ -2790,45 +2839,9 @@ bin/cnss_diag
 bin/wcnss_service
 bin/fstman
 
-# Fingerprint sensor
-lib64/hw/fingerprint.goodix.default.so
-lib64/hw/fingerprint.msm8937.so
-lib64/lib_fpc_tac_shared.so
-lib64/libgf_algo.so
-lib64/libgf_ca.so
-lib64/libgf_hal.so
-lib/lib_fpc_tac_shared.so
-
-# Fingerprint Firmware
-etc/firmware/fpctzappfingerprint.b00
-etc/firmware/fpctzappfingerprint.b01
-etc/firmware/fpctzappfingerprint.b02
-etc/firmware/fpctzappfingerprint.b03
-etc/firmware/fpctzappfingerprint.b04
-etc/firmware/fpctzappfingerprint.b05
-etc/firmware/fpctzappfingerprint.b06
-etc/firmware/fpctzappfingerprint.mdt
-etc/firmware/goodixfp.b00
-etc/firmware/goodixfp.b01
-etc/firmware/goodixfp.b02
-etc/firmware/goodixfp.b03
-etc/firmware/goodixfp.b04
-etc/firmware/goodixfp.b05
-etc/firmware/goodixfp.b06
-etc/firmware/goodixfp.mdt
-
-# To-Do
 vendor/lib/libaudioparsers.so
 vendor/lib/libflash_gpio.so
 vendor/lib/libjni_dualcamera.so
-vendor/lib/libmmhttpstack.so
-vendor/lib/libmmparser.so
-vendor/lib/libmmparser_lite.so
-vendor/lib/libmmrtpdecoder.so
-vendor/lib/libmmrtpencoder.so
-vendor/lib/libmmwfdinterface.so
-vendor/lib/libmmwfdsinkinterface.so
-vendor/lib/libmmwfdsrcinterface.so
 vendor/lib/libpvr.so
 vendor/lib/librmp.so
 vendor/lib/librpmb.so
@@ -2840,15 +2853,3 @@ vendor/lib64/libExtendedExtractor.so
 vendor/lib64/libFileMux.so
 vendor/lib64/libSubSystemShutdown.so
 vendor/lib64/libaudioparsers.so
-vendor/lib64/libmmhttpstack.so
-vendor/lib64/libmmparser.so
-vendor/lib64/libmmparser_lite.so
-vendor/lib64/libmmrtpdecoder.so
-vendor/lib64/libmmrtpencoder.so
-vendor/lib64/libmmwfdinterface.so
-vendor/lib64/libmmwfdsinkinterface.so
-vendor/lib64/libmmwfdsrcinterface.so
-vendor/lib64/libpvr.so
-vendor/lib64/librmp.so
-vendor/lib64/libSampleAuthJNI.so
-vendor/lib64/libSampleExtAuthJNI.so
